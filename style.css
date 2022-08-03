@@ -64,6 +64,7 @@ main {
     color: #fff;
     cursor: pointer;
     box-shadow: inset 0 0 0.4rem rgba(0, 0, 0, 0.5);
+    user-select: none;
 }
 
 .active {
@@ -83,7 +84,7 @@ main {
 }
 
 .show {
-    display: block;
+    display: block!important;
 }
 
 #img-container {
@@ -93,6 +94,7 @@ main {
 
 #img-container img{
     width: 100%;
+    display: none;
 }
 
 @media screen and (max-width: 1000px) {
