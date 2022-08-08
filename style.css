@@ -10,6 +10,10 @@
     font-size: 0.9rem;
 }
 
+body {
+    background-color: #1c1c1c;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +25,7 @@ main {
 #menu { 
     display: flex;
     flex-direction: column;
-    background-color: #003049;
+    background-color: rgb(22, 172, 209);
     max-width: 60rem;
     max-height: 90rem;
     margin: 1rem;
@@ -58,7 +62,7 @@ main {
 .selector {
     text-align: center;
     padding: 1rem 0;
-    background-color: #003049;
+    background-color: rgb(146, 45, 197);
     flex-grow: 1;
     font-weight: 500;
     color: #fff;
@@ -68,7 +72,7 @@ main {
 }
 
 .active {
-    background-color: #D62828;
+    background-color: rgb(235, 31, 133);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
     transform: scale(1.02);
 }
